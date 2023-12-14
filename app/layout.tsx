@@ -8,6 +8,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <meta name="description" content="This is a demo dashboard for invoices created by Alex"/>
+      <title>Alex Invoices Manage Dashboard</title>
       <body className={`${inter.className} antialiased`}>{children}</body>
     </html>
   );
